@@ -7,7 +7,7 @@ def before_all(context):
 def before_feature(context, feature):
     print("Before feature\n")
 
-#Scenario level objects are popped off context when scenario exits
+#Scenario level objects are popped off context when scenario exit
 def before_scenario(context,scenario):
     context.browser = webdriver.Chrome("c:\Python36\Lib\site-packages\selenium\webdriver\chromedriver_win32\chromedriver.exe")
     print("Before scenario\n")
