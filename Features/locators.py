@@ -5,4 +5,5 @@ class MainPageLocators(object)
     #lokatorzy
 class FlightTabLocators(object)
     #zmianaBasi
+    #zmianaBasi2
 
