@@ -18,6 +18,6 @@ def after_scenario(context,scenario):
 
 def after_feature(context,feature):
     print("\nAfter feature")
-aaaaaaa
+
 def after_all(context):
     print("Executing after all")
